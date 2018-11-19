@@ -1,0 +1,72 @@
+{
+  "items": {
+    "theOfficeCompleteCollection": {
+      "name": "the-office-complete-collection",
+      "quantity": 3,
+      "maxStock": 10,
+      "price": 7,
+      "slot": "F1"
+    },
+    "oneFluffyCat": {
+      "name": "one-fluffy-cat",
+      "quantity": 5,
+      "maxStock": 5,
+      "price": 2.5,
+      "slot": "F2"
+    },
+    "bigJugOfColdCoffee": {
+      "name": "big-jug-of-cold-coffee",
+      "quantity": 1,
+      "maxStock": 8,
+      "price": 1.25,
+      "slot": "G1"
+    },
+    "obnoxiousChristmasSocks": {
+      "name": "obnoxious-christmas-socks",
+      "quantity": 5,
+      "maxStock": 7,
+      "price": 4.5,
+      "slot": "G2"
+    },
+    "sparklyNailPolish": {
+      "name": "sparkly-nail-polish",
+      "quantity": 0,
+      "maxStock": 10,
+      "price": 2,
+      "slot": "H1"
+    }
+  },
+
+  "change": {
+      "toonie": {
+        "name": "toonie",
+        "count": 10,
+        "value": 2,
+        "maxCount": 25
+      },
+      "loonie": {
+        "name": "loonie",
+        "count": 20,
+        "value": 1,
+        "maxCount": 50
+      },
+      "quarter": {
+        "name": "quarter",
+        "count": 12,
+        "value": 0.25,
+        "maxCount": 40
+      },
+      "dime": {
+        "name": "dime",
+        "count": 40,
+        "value": 0.10,
+        "maxCount": 100
+      },
+      "nickel": {
+        "name": "nickel",
+        "count": 80,
+        "value": 0.05,
+        "maxCount": 200
+    }
+  }
+}
