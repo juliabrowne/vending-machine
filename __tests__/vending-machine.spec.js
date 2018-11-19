@@ -70,7 +70,7 @@ describe('VendingMachine', () => {
     })
   })
 
-  describe.only('when looking to refill items in vending machine', () => {
+  describe('when looking to refill items in vending machine', () => {
     it('should return all out-of-stock items', () => {
       expect(transaction.stockItems()).toEqual('sparklyNailPolish')
     })
